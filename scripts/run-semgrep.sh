@@ -27,7 +27,6 @@ OUT_LATEST="$OUT_DIR/${SLUG}.latest.semgrep.json"
 echo "[semgrep] scanning: $TARGET"
 semgrep scan \
   --config auto \
-  --metrics off \
   --disable-version-check \
   --json \
   --output "$OUT_JSON" \

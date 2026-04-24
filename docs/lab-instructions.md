@@ -9,6 +9,7 @@
 
 1. เลือกแอปเป้าหมาย:
    - PHP: [`targets/php-legacy/app`](targets/php-legacy/app)
+   - Flask: [`targets/flask-vulnerable/app`](targets/flask-vulnerable/app)
 2. เข้าโฟลเดอร์แลป:
    - `cd lab-devday-ep3`
 3. ตรวจสอบว่าเครื่องมือพร้อมใช้งาน:
@@ -109,6 +110,7 @@ gitleaks version
 
 ถ้าอยากเห็นผลใน terminal :
 ```bash
+cd targets/php-legacy/app/
 semgrep scan --config auto .
 ```
 
@@ -125,6 +127,8 @@ semgrep scan --config auto .
 ### ขั้นตอน 1: สร้าง SBOM ด้วย Syft
 ```bash
 ./scripts/run-syft.sh targets/php-legacy/app before
+#or
+./scripts/run-syft.sh targets/flask-vulnerable/app before
 ```
 
 ### ขั้นตอน 2: อัปโหลดเข้า Dependency-Track + DefectDojo (ตัวเลือก)
@@ -153,6 +157,7 @@ docker compose -f docker-compose.yml -f docker-compose.defectdojo.yml up -d
 ```
 ถ้าอยากเห็นผลใน terminal :
 ```bash
+cd targets/php-legacy/app/
 gitleaks detect --source . --verbose
 ```
 
