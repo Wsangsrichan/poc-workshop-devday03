@@ -1,4 +1,4 @@
-# lab-devday-ep3: แลปลงมือทำ (Security Code Review & Scanning Tools)
+# Lab-DevDay-EP3: Workshop - (Security Code Review & Scanning Tools)
 
 > ระยะเวลา: 45 นาที | 10:40 - 11:25
 > Repo นี้ใช้สำหรับเวิร์กช็อปเท่านั้น และมีโค้ดที่ “ตั้งใจทำให้มีช่องโหว่” เพื่อการเรียนรู้  
