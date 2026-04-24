@@ -49,10 +49,10 @@
 - Semgrep
 - Syft
 - Gitleaks
-- (ตัวเลือก) เซิร์ฟเวอร์ Dependency-Track (ดู `infra/dependency-track/`)
+- (ตัวเลือก) เซิร์ฟเวอร์ Dependency-Track (ดู [`infra/dependency-track/`](infra/dependency-track/))
 
 ## Docs
-- `docs/lab-prerequisite.md`
-- `docs/lab-instructions.md`
-- `docs/lab-checklist.md`
-- `docs/scoring-sheet.md`
+- [`docs/lab-prerequisite.md`](docs/lab-prerequisite.md) 
+- [`docs/lab-instructions.md`](docs/lab-instructions.md)
+- [`docs/lab-checklist.md`](docs/lab-checklist.md)
+- [`docs/scoring-sheet.md`](docs/scoring-sheet.md)

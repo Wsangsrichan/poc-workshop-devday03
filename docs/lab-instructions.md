@@ -16,8 +16,8 @@
    - `syft version`
    - `gitleaks version`
 4. ดูเช็กลิสต์และใบให้คะแนน:
-   - `docs/lab-checklist.md`
-   - `docs/scoring-sheet.md`
+   - [`docs/lab-checklist.md`](docs/lab-checklist.md)
+   - [`docs/scoring-sheet.md`](docs/scoring-sheet.md)
 5. อธิบายโครงสร้างของแอปเป้าหมาย (2 นาที):
    - เอนด์พอยต์/หน้าเว็บอยู่ที่ไหน
    - โค้ดเชื่อมฐานข้อมูลอยู่ที่ไหน
@@ -180,4 +180,4 @@ gitleaks detect --source . --verbose
 ./scripts/run-gitleaks.sh targets/php-legacy/app after
 ```
 
-เฉลย/แนวทาง: `docs/solutions/php-legacy-exercise-4.5.md`
+เฉลย/แนวทาง: [`docs/solutions/php-legacy-exercise-4.5.md`](docs/solutions/php-legacy-exercise-4.5.md)
