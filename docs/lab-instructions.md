@@ -105,6 +105,7 @@ gitleaks version
 ## 4.2 ส่วน A: สแกน SAST ด้วย Semgrep (10 นาที)
 ### ขั้นตอน 1: รันสแกน
 ```bash
+chmod +x ./scripts/*
 ./scripts/run-semgrep.sh targets/php-legacy/app before
 ```
 
