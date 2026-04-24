@@ -8,7 +8,7 @@
 หมายเหตุสำหรับผู้สอน: แนะนำให้ผู้เรียนติดตั้งเครื่องมือล่วงหน้าอย่างน้อย 1 สัปดาห์ก่อนวันเรียน
 
 1. เลือกแอปเป้าหมาย:
-   - PHP: `targets/php-legacy/app`
+   - PHP: [`targets/php-legacy/app`](targets/php-legacy/app)
 2. เข้าโฟลเดอร์แลป:
    - `cd lab-devday-ep3`
 3. ตรวจสอบว่าเครื่องมือพร้อมใช้งาน:
@@ -180,4 +180,4 @@ gitleaks detect --source . --verbose
 ./scripts/run-gitleaks.sh targets/php-legacy/app after
 ```
 
-เฉลย/แนวทาง: [`docs/solutions/php-legacy-exercise-4.5.md`](docs/solutions/php-legacy-exercise-4.5.md)
+เฉลย/แนวทาง: [`docs/solutions/php-legacy-exercise-4.5.md`](solutions/php-legacy-exercise-4.5.md)

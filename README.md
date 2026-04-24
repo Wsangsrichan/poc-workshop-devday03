@@ -17,7 +17,7 @@
 - ห้ามนำ target ที่มีช่องโหว่ไป deploy บนเครื่องสาธารณะ
 
 ## Lab Targets
-- `targets/php-legacy/app/` (แอป PHP แบบ legacy ที่มีช่องโหว่โดยตั้งใจ: SQLi / รหัสผ่าน plaintext ฯลฯ)
+- [`targets/php-legacy/app/`](targets/php-legacy/app/) (แอป PHP แบบ legacy ที่มีช่องโหว่โดยตั้งใจ: SQLi / รหัสผ่าน plaintext ฯลฯ)
 
 แต่ละ target จะมีไฟล์ `UPSTREAM.md` เพื่ออ้างอิงแหล่งที่มาของโค้ดต้นฉบับ
 
